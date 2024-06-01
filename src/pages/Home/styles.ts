@@ -40,7 +40,6 @@ export const CountDownContainer = styled.div`
         padding: 2 rem 1 rem;
         border-radius: 8px;
     }
-    
 `
 
 export const Separator = styled.div`
