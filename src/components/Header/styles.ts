@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Coffee} from "phosphor-react";
 
 export const HeaderContainer = styled.header`
     display: flex;
@@ -29,3 +30,15 @@ export const HeaderContainer = styled.header`
         }
     }
 `
+
+export const CoffeeIcon = styled(Coffee)`
+    position: relative;
+    color: ${({theme}) => theme['gray-100']};
+    transition: color 0.3s ease;
+
+    &:hover {
+        color: ${({theme}) => theme['orange-500']};
+    }
+`;
+
+

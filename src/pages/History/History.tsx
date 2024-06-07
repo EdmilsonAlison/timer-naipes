@@ -1,0 +1,60 @@
+import {HistoryContainer, HistoryList} from "./styles.ts";
+
+export const History = () => {
+    return (
+        <HistoryContainer>
+            <h1>History</h1>
+
+          <HistoryList>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tarefa</th>
+                            <th>Duração</th>
+                            <th>Início</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Estudar</td>
+                            <td>1:30</td>
+                            <td>10:00</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Correr</td>
+                            <td>0:30</td>
+                            <td>12:00</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Estudar</td>
+                            <td>1:30</td>
+                            <td>10:00</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Correr</td>
+                            <td>0:30</td>
+                            <td>12:00</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Estudar</td>
+                            <td>1:30</td>
+                            <td>10:00</td>
+                            <td>Concluído</td>
+                        </tr>
+                        <tr>
+                            <td>Correr</td>
+                            <td>0:30</td>
+                            <td>12:00</td>
+                            <td>Concluído</td>
+                        </tr>
+                    </tbody>
+                </table>
+          </HistoryList>
+        </HistoryContainer>
+    )
+}
